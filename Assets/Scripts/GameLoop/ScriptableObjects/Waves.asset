@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 571d2aaa58517204bb29b34787e96489, type: 3}
+  m_Name: Waves
+  m_EditorClassIdentifier: 
+  waves:
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 5
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 4
+      s_delay: 0
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 1
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 8
+      s_delay: 3
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 8
+      s_delay: 0
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 2
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 3
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 2
+      s_delay: 3
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 0
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 3
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 10
+      s_delay: 0
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 20
+      s_delay: 8
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 30
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 10
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 10
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 15
+      s_delay: 0
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 5
+      s_delay: 2
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 20
+      s_delay: 2
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 20
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 40
+      s_delay: 2
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 40
+      s_delay: 2
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 40
+      s_delay: 2
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 20
+      s_delay: 0
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 20
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 25
+      s_delay: 5
+    - s_prefab_enemy: {fileID: 6923803340025702493, guid: b5f2871cbae3cab488bf9dbd2022887f, type: 3}
+      s_number: 20
+      s_delay: 5
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 10
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 20
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 30
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 40
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 50
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 60
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 70
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 80
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 901
+      s_delay: 1
+    - s_prefab_enemy: {fileID: 8205035551131575323, guid: bc5749eaadb203044a2e3afe7a642bdc, type: 3}
+      s_number: 100
+      s_delay: 1
+  - s_sequences:
+    - s_prefab_enemy: {fileID: 6292691176751221180, guid: cb0d037487cb6634683009c33da1a95e, type: 3}
+      s_number: 1
+      s_delay: 0
